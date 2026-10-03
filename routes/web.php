@@ -18,7 +18,7 @@ Route::get('/acerca-de', function () {
 });
 
 Route::get('/contacto', function () {
-    return 'Josthyn Stanley Cruz Vásquez - josthynvasquez32022@gmail.com';
+    return 'Carlos Molina - carlos.molina@gmail.com';
 });
 
 Route::prefix('comercios')->name('comercios.')->group(function () {
